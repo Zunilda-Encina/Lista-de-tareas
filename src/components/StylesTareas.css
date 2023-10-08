@@ -1,0 +1,49 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+p{
+    text-decoration: underline;
+    /* text-decoration: none ; */
+}
+.containerTask {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #2980b9;  /* fallback for old browsers */
+    background: #C02425; background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  
+    background: linear-gradient(to left, #F0CB35, #C02425);
+    
+}
+
+form > input  {
+    margin-left: 12px;   
+    margin-right: 12px;
+    font-size: 20ox;
+    background-color: #ffffff2d;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.103) 5px 5px 5px; 
+}
+
+form > button {
+    box-sizing: content-box;
+    width: 85%;
+    margin-top: 8px;
+    font-size: 20px;
+    background-color: #ffffff2d;
+    box-shadow: rgba(0, 0, 0, 0.103) 5px 5px 5px; 
+}
+
+.editar, .eliminar {
+    margin-left: 20px;
+    background-color: #ffffff2d;
+    box-shadow: rgba(0, 0, 0, 0.103) 5px 5px 5px; 
+    margin-top: 10px;
+
+}
+
